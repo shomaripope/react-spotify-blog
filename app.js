@@ -15,4 +15,4 @@ app.get("*", (req, res) => {
 const port = process.env.PORT || 3000;
 app.listen(port);
 
-console.log(`Old School Shuffle running in production on port ${port}`);
+console.log(`Shomari's Shuffle running in production on port ${port}`);

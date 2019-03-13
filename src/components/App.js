@@ -49,7 +49,7 @@ class App extends Component {
         <header className="App-header">
           <AppBar>
             <Typography variant="display3">
-              Old School Shuffle
+              Shomari's Shuffle List
             </Typography>
           </AppBar>
         </header>
@@ -63,7 +63,7 @@ class App extends Component {
           <OtherPosts allPosts={this.state.posts} otherPosts={this.state.otherPosts} changeFeaturedPost={(index) => this.changeFeaturedPost(index)}/>
         </div>
         <div className="footer">
-          <Typography variant="body2" gutterBottom>Proudly made with Cosmic JS</Typography>
+          <Typography variant="body2" gutterBottom>Proudly co-coded by Shomari Pope</Typography>
         </div>
       </div>
     );
